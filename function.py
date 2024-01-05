@@ -1,5 +1,5 @@
 def print_params(color_car):
-    color_car = 'BMW - red, LADA - bleck'
+    color_car = 'BMW - red, LADA - black'
     print('Цвет авто:', color_car)
 
 
