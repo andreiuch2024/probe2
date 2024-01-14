@@ -1,7 +1,11 @@
 def print_params(color_car):
-    color_car = 'BMW - red, LADA - black'
     print('Цвет авто:', color_car)
+my_car = ['BMV - red', 'LADA - black']
+for car in my_car:
+    print_params(car)
 
 
-for color_car in range(2):
-    print_params(color_car)
+def print_params(color_car):
+    print('Цвет у машин бывает - ', color_car)
+print_params('red')
+print_params('black')
